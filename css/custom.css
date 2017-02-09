@@ -92,13 +92,35 @@ header .header-content .header-content-inner p {
 .section-heading {
     margin-top: 0;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-#motivation-section {
+#about-section {
 	color: #fff;
     background-color: yellowgreen;
     padding: 70px 0;
     text-align: center;
+}
+
+#features-section {
+    text-align: center;
+}
+
+.mobile-feature {
+    margin-bottom: 2%;
+}
+
+.mobile-screenshot {
+    border-radius: 30px;
+    width: 45%;
+    margin-right: 2%;
+    display: inline;
+}
+
+.features-text {
+    height: 10em;
+    position: relative;
+    vertical-align: middle;
 }
 
 .content {
@@ -111,8 +133,7 @@ header .header-content .header-content-inner p {
 }
 
 .content-3 {
-	padding: 20px 0 40px;
-	text-align: center;
+    margin-bottom: 0;
 }
 
 .promo,
@@ -389,7 +410,6 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
-
 .btn {
     border-radius: 300px;
     text-transform: uppercase;
@@ -450,4 +470,3 @@ img::-moz-selection {
     color: yellowgreen!important;
     background-color: transparent;
 }
-
