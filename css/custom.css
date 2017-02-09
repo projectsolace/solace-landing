@@ -94,7 +94,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 20px;
 }
 
-.motivation-section {
+#motivation-section {
 	color: #fff;
     background-color: yellowgreen;
     padding: 70px 0;
@@ -220,8 +220,7 @@ header .header-content .header-content-inner p {
     color: yellowgreen;
 }
 
-.navbar-default .nav > li.active>a,
-.navbar-default .nav>li.active>a:focus {
+.navbar-default .nav>li.navActive>a:focus {
     color: yellowgreen!important;
     background-color: transparent;
 }
@@ -439,14 +438,16 @@ img::-moz-selection {
     margin-bottom: 5%;
 }
 
-#tech-stack{
-    margin-top: 5%;
-    margin-bottom: 5%;
+#techStack-section {
+    margin-top: 10%;
+    margin-bottom: 10%;
     padding: 100px 0;
     background-color: yellowgreen;
     color: #fff;
 }
 
-#tech-stack-section {
-    text-align: center;
+.navActive {
+    color: yellowgreen!important;
+    background-color: transparent;
 }
+
