@@ -9,6 +9,8 @@
 
     <title>Solace</title>
 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <link href="css/custom.css" rel="stylesheet">
@@ -32,7 +34,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                	<span class="glyphicon glyphicon-fire"></span>
+                    <img class="img-responsive" src="favicon.ico" height="20" width="20" align="left" hspace="10">
                 	Solace
                 </a>
             </div>
@@ -43,7 +45,7 @@
                         <a href="#header-section" class="navActive">Home</a>
                     </li>
                      <li>
-                        <a href="#motivation-section">Motivation</a>
+                        <a href="#about-section">About</a>
                     </li>
                      <li>
                         <a href="#features-section">Features</a>
@@ -55,99 +57,107 @@
                         <a href="#team-section">The Team</a>
                     </li>
                 </ul>
-
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </nav>
 
 	<!-- Header -->
-    <header id = "header-section" class="sections">
+    <header id="header-section">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Power of Watson in Your Hand</h1>
-                <p>Decades of innovation in cognitive technology. Now powering your app</p>
-                <a href="#" class="btn btn-primary btn-lg">Engage Now</a>
+                <h1>The Power of Watson in Your Hand</h1>
+                <a href="#features-section" id="features-button" class="btn btn-primary btn-lg">See how it works</a>
             </div>
         </div>
     </header>
 
-	<!-- Intro Section -->
-    <section id="motivation-section" class="sections">
+	<!-- About -->
+    <section id="about-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                	<span class="glyphicon glyphicon-apple" style="font-size: 60px"></span>
-                    <h2 class="section-heading">Our Motivation Behind Solace</h2>
-                    <p class="text-light">Studies have shown that writing or speaking what’s on our minds is extremely beneficial to our sense of self and well-being. Unfortunately many people don't take the time out to write out  what's on their minds and others are often embarrassed or unwilling to tell their problems to another person. This is the problem we are trying to solve and with Solace we created an easier more accurate method of self-introspection. Watson's response is sent back as percentiles so it compares the users to the millions of responses it has received, allowing for the most accurate analysis. We take this analysis and create visual representations for the user. </p>
+                    <h1 class="section-heading">Our Motivation Behind Solace</h1>
+                    <p class="text-light">Studies have shown that writing or speaking what’s on our minds is extremely beneficial to our sense of self and well-being. Unfortunately many people don't take the time out to write out what's on their minds and others are often embarrassed or unwilling to tell their problems to another person. <b>This is the problem we are trying to solve.</b></p>
+
+                    <p class="text-light">With Solace we created an easier and more accurate method of self-introspection. Watson's response is sent back as percentiles so it compares users to the millions of responses it has received, allowing for the most accurate analysis. We take this analysis and create visual representations, allowing users to learn and discover more about themselves.</p>
                 </div>
             </div>
         </div>
     </section>
 
-	<!-- Content 1 -->
-    <section id="features-section" class="sections">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img class="img-responsive img-circle center-block" src="images/microphone.jpg" alt="">
+	<!-- Features -->
+    <section id="features-section">
+        <section class="content">
+            <div class="container">
+                <div class="row mobile-feature">
+                    <div class="col-sm-6">
+                        <img class="img-responsive mobile-screenshot" src="images/mobile-screenshots/login.png" alt="login">
+                        <img class="img-responsive mobile-screenshot" src="images/mobile-screenshots/signup.png" alt="signup">
+                    </div>
+                    <div class="col-sm-6 features-text">
+                        <h1 class="section-heading">Mobile</h1>
+                    	<p class="lead text-muted">Solace is an iOS application built using React Native. It harnesses the power of IBM Watson’s supercomputer to help users track their mental and emotional processes over time.</p>
+                        <p class="lead text-muted">The way it works is simple. Open the app, log in or sign up...</p>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                	<h2 class="section-header">Best in Class</h2>
-                	<p class="lead text-muted">Decade of research and innovation. Now that technology is powering your app</p>
-                	<a href="#" class="btn btn-primary btn-lg">Classify It</a>
+                <div class="row mobile-feature">
+                    <div class="col-sm-6 features-text">
+                        <p class="lead text-muted">...enjoy the beautiful views and inspirational message, hit the big red microphone button, and express yourself.</p>
+                        <p class="lead text-muted">Users are encouraged to speak for at least one minute for Watson to generate an accurate analysis.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="img-responsive mobile-screenshot" src="images/mobile-screenshots/homepage.png" alt="homepage">
+                        <img class="img-responsive mobile-screenshot" src="images/mobile-screenshots/questions.png" alt="questions">
+                    </div>
                 </div>
-
+                <div class="row mobile-feature">
+                    <div class="col-sm-6">
+                        <img class="img-responsive mobile-screenshot" src="images/mobile-screenshots/charts.png" alt="charts">
+                        <img class="img-responsive mobile-screenshot" src="images/mobile-screenshots/weekly-chart.png" alt="weekly-chart">
+                    </div>
+                    <div class="col-sm-6 features-text">
+                        <p class="lead text-muted">Watson sends back over 50 personality and emotional insights based on the recording.</p>
+                        <p class="lead text-muted">To view their data, users can go to Charts and choose to filter data by week, month, or all time. Users can also see their total data to track how their recordings have changed over time.</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+         <section class="content content-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                    	<h1 class="section-header">Web</h1>
+                    	<p class="lead text-light">We wanted to add a functionality that allows administrators of the app to analyze data based on demographics.</p>
+                        <p class="lead text-light">This is why we also built a web portal for admins to understand general trends among different demographics. The web portal aggregates all data and groups them into separate demographic categories for admins to analyze.</p>
+                    	<a href="https://solace-admin.herokuapp.com" target="_blank" class="btn btn-default btn-lg">Try It Out</a>
+                    </div>
+                    <div class="col-sm-8">
+                        <img class="img-responsive" src="images/admin-demo.gif" alt="admin-demo" width="200%">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section class="content content-3">
+            <div class="container">
+                <div class="row">
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img class="img-responsive" src="images/extension.png" alt="extension">
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="section-header">Chrome Extension</h2>
+                        <p class="lead text-muted">A bonus feature we also added is a Chrome extension that makes it easy for you to interact with our app when it is inconvenient to talk on your phone.</p>
+                        <p class="lead text-muted">When a thought suddenly pops up while you are browsing on your computer, you can immediately open up the Chrome extension and type away. After you finish, you can look up your analysis on your phone later.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
 
-	<!-- Content 2 -->
-     <section class="content content-2 sections" id="features-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                	<h2 class="section-header">Superior Quality</h2>
-                	<p class="lead text-light">Decades of research and innovation. Now the power is yours. </p>
-                	<a href="#" class="btn btn-default btn-lg">Test It</a>
-                </div>
-                <div class="col-sm-6">
-                    <img class="img-responsive img-circle center-block" src="images/iphone.jpg" alt="">
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Promos -->
-	<section class="promo-section container-fluid sections">
-        <div class="row promo">
-        	<a href="#">
-				<div class="col-md-4 promo-item item-1">
-					<h3>
-						Unleash
-					</h3>
-				</div>
-            </a>
-            <a href="#">
-				<div class="col-md-4 promo-item item-2">
-					<h3>
-						Synergize
-					</h3>
-				</div>
-            </a>
-
-			<a href="#">
-				<div class="col-md-4 promo-item item-3">
-					<h3>
-						Procrastinate
-					</h3>
-				</div>
-            </a>
-        </div>
-    </section><!-- /.container-fluid -->
-
-
-    <section class="container-fluid sections" id="techStack-section">
+    <section class="container-fluid" id="techStack-section">
         <h2 id="team-title">The Technology Powering Solace</h2>
         <div class="col-md-2 col-lg-2"></div>
 
@@ -158,7 +168,6 @@
         <div class="tech-stack-section col-md-4 col-lg-4">
             <h2 class="section-header">React &amp;&amp; React Native</h2>
             <p class="lead text-muted">Speech-to-Text, Personality Insights, Tonal Analysis</p>
-        </div>
         </div>
         <div class="col-md-2 col-lg-2"></div>
     </section>
@@ -188,7 +197,6 @@
             <h2 class="section-header"><span>Pics here</span><br> Name here</h2>
             <p class="lead text-muted">Personal details</p>
             <a href="#" class="btn btn-primary">GitHub link</a>
-        </div>
         </div>
         <div class="col-md-2 col-lg-2"></div>
     </section>

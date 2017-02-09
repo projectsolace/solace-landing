@@ -20,6 +20,14 @@ $(document).ready(function(){
     return false;
   });
 
+  $('#features-button').on('click', function(){
+    var $el = $(this), id =  $el.attr('href');
+
+    $('html, body').animate({
+      scrollTop: $(id).offset().top - nav_height}, 500);
+
+    return false;
+
   $(window).on('scroll', function(){
     var scrollPos = $(window).scrollTop();
     console.log(scrollPos);
