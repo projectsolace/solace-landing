@@ -94,7 +94,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 20px;
 }
 
-.intro {
+.motivation-section {
 	color: #fff;
     background-color: yellowgreen;
     padding: 70px 0;
@@ -133,7 +133,7 @@ header .header-content .header-content-inner p {
 }
 
 .promo-item:hover {
-    background-size: 110%; 
+    background-size: 110%;
     border: 10px solid rgba(255,255,255,0.3);
     line-height: 160px;
 }
@@ -147,15 +147,15 @@ header .header-content .header-content-inner p {
 .item-1 {
 	background: url('../images/writing.jpg');
 	}
-	
+
 .item-2 {
 	background: url('../images/concert.jpg');
 	}
-	
+
 .item-3 {
 	background: url('../images/pencil_sharpener.jpg');
 	}
-		
+
 .item-1,
 .item-2,
 .item-3 {
@@ -177,13 +177,13 @@ header .header-content .header-content-inner p {
 	font-size: 22px;
 	font-weight: 300;
 	}
-	
-.content-3 .glyphicon,	
+
+.content-3 .glyphicon,
 .page-footer .contact .glyphicon {
 	font-size: 32px;
 	font-weight: 700;
 	}
-		
+
 .page-footer .small-print {
 	padding: 50px 0 40px;
 	font-weight: 300;
@@ -428,4 +428,25 @@ img::-moz-selection {
 
 .bg-primary {
     background-color: yellowgreen;
+}
+
+#team-title {
+    text-align: center;
+}
+
+#team-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#tech-stack{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 100px 0;
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+#tech-stack-section {
+    text-align: center;
 }
