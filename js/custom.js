@@ -27,6 +27,7 @@ $(document).ready(function(){
       scrollTop: $(id).offset().top - nav_height}, 500);
 
     return false;
+  });
 
   $(window).on('scroll', function(){
     var scrollPos = $(window).scrollTop();
@@ -43,9 +44,7 @@ $(document).ready(function(){
         else{
             currLink.removeClass("navActive");
         }
-
       });
-
   });
 
   $('#siteNav').affix({
@@ -53,8 +52,5 @@ $(document).ready(function(){
   		top: 100
   	}
   });
-
-
-
 
 });
