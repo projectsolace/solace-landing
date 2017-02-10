@@ -423,3 +423,13 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+
+@media(max-width:768px) {
+   #techStack-section {
+    text-align: center;
+   }
+
+   #team-section{
+    text-align: center;
+   }
+}
