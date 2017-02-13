@@ -1,5 +1,8 @@
 $(document).ready(function(){
 // Offset for Site Navigation
+  AOS.init({
+    easing: 'ease-in-sine'
+  });
 
   var motivationSection = $('motivation-section'),
     nav = $('nav'),
