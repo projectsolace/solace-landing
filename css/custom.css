@@ -14,7 +14,7 @@ a {
 
 a:hover,
 a:focus {
-    color: red;
+    color: rgba(125,213,249,1);
 }
 
 p {
