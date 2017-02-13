@@ -355,6 +355,17 @@ fieldset[disabled] .btn-default.active {
     background-color: #fff;
 }
 
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    border-color: rgba(125,213,249,1);
+    color: #fff;
+    background-color: rgba(125,213,249,1);
+}
+
 .btn-default .badge {
     color: #fff;
     background-color: #222;
