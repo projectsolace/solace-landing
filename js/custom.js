@@ -34,7 +34,6 @@ $(document).ready(function(){
 
   $(window).on('scroll', function(){
     var scrollPos = $(window).scrollTop();
-    console.log(scrollPos);
 
     $('#navbar > ul > li > a').each(function(){
         var currLink = $(this);
