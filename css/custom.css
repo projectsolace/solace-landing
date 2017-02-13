@@ -297,6 +297,16 @@ header .header-content .header-content-inner p {
     }
 }
 
+@media(max-width:768px) {
+   #techStack-section {
+    text-align: center;
+   }
+
+   #team-section{
+    text-align: center;
+   }
+}
+
 .btn-default {
     border-color: #fff;
     color: #222;
@@ -348,17 +358,6 @@ fieldset[disabled] .btn-default.active {
 .btn-default .badge {
     color: #fff;
     background-color: #222;
-}
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    border-color: rgba(125,213,249,1);
-    color: #fff;
-    background-color: rgba(125,213,249,1);
 }
 
 .btn-primary {
@@ -445,12 +444,9 @@ img::-moz-selection {
     background: 0 0;
 }
 
-@media(max-width:768px) {
-   #techStack-section {
-    text-align: center;
-   }
-
-   #team-section{
-    text-align: center;
-   }
+.code-button {
+    margin-left: 2%;
+}
+.how-works-button {
+    margin-right: 2%;
 }
