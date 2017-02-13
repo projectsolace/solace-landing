@@ -23,7 +23,7 @@ $(document).ready(function(){
     return false;
   });
 
-  $('#features-button').on('click', function(){
+  $('#features-button, #github-button').on('click', function(){
     var $el = $(this), id =  $el.attr('href');
 
     $('html, body').animate({
