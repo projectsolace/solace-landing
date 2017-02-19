@@ -1,0 +1,25 @@
+{
+  "name": "solace-landing",
+  "version": "1.0.0",
+  "description": "The landing page of Solace app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projectsolace/solace-landing.git"
+  },
+  "author": "Winston Wang, Anuj Shah, Jimmy Wang, Jenny Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/projectsolace/solace-landing/issues"
+  },
+  "homepage": "https://github.com/projectsolace/solace-landing#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

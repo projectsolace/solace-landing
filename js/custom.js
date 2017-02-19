@@ -4,8 +4,7 @@ $(document).ready(function(){
     easing: 'ease-in-sine'
   });
 
-  var motivationSection = $('motivation-section'),
-    nav = $('nav'),
+  var nav = $('nav'),
     nav_height = nav.outerHeight();
 
 
@@ -50,9 +49,9 @@ $(document).ready(function(){
   });
 
   $('#siteNav').affix({
-  	offset: {
-  		top: 100
-  	}
+    offset: {
+    top: 100
+    }
   });
 
 });
